@@ -31,9 +31,47 @@ int round1(){
     printf("\n\n");
 
     printf("Your current balance is %d",deposit);
+    printf("\n\n");
 
     int bet1;
-    printf("%s,Enter the money to bet : ", name);
+    printf("%s,Enter the money to bet : $", name);
+    scanf("%d",$bet1);
 
-    return 0;
-}
+    printf("\n\n");
+
+
+   if(bet1>deposit)
+  { 
+     printf("Money Exceeds,\n");
+     printf("Enter Again : $ ");
+     scanf("%d" , &bet1);
+  }
+
+  printf("\n\n");
+
+  int computer1;
+  computer1 = rand() % 10;
+
+ int guess1;
+ printf("Guess a number from 1 to 10: ");
+scanf("%d" , &guess1);
+
+printf("\n\n");
+
+if(guess>10)
+{    printf("Number Exceeds, \n");
+     printf("Enter Again : ");
+     scanf("%d", &guess1);
+
+printf("\n\n");
+
+
+
+  
+
+
+
+
+    
+
+

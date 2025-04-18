@@ -35,5 +35,9 @@ int round1(){
     int bet1;
     printf("%s,Enter the money to bet : ", name);
 
-    return 0;
-}
+    printf(\n\n);
+
+return 0; }
+
+
+
